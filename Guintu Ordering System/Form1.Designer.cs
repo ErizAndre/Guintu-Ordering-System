@@ -126,13 +126,13 @@
             btnReset.BackColor = Color.Red;
             btnReset.FlatAppearance.BorderSize = 0;
             btnReset.FlatStyle = FlatStyle.Flat;
-            btnReset.Font = new Font("Lucida Sans", 11.25F, FontStyle.Bold);
+            btnReset.Font = new Font("Lucida Sans", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnReset.ForeColor = Color.White;
             btnReset.Location = new Point(152, 160);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(351, 28);
             btnReset.TabIndex = 8;
-            btnReset.Text = "RESET ORDER";
+            btnReset.Text = "RESET";
             btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += button1_Click;
             // 
@@ -422,7 +422,7 @@
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(351, 28);
             btnPurchase.TabIndex = 9;
-            btnPurchase.Text = "Purchase";
+            btnPurchase.Text = "PURCHASE";
             btnPurchase.UseVisualStyleBackColor = false;
             btnPurchase.Click += button2_Click;
             // 
